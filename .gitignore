@@ -1,0 +1,32 @@
+# Git Ignore for Amazon ML Challenge 2026
+
+# Large dataset files (>1GB)
+dataset/
+*/dataset/
+*/*/dataset/
+*.tsv
+*.csv
+
+# Large archives and media (>100MB exceeds GitHub limit)
+*.zip
+*.tar
+*.gz
+*.mp4
+*.avi
+
+# Cache and HuggingFace
+hf_cache/
+.cache/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+.useless/
+*/.useless/
+temp/
+*.log
